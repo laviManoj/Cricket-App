@@ -1,0 +1,42 @@
+.tournament-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .tournament-heading {
+    font-size: 36px;
+    margin-bottom: 32px;
+    color: #333;
+    background-color: skyblue;
+    text-align: center;
+  }
+  
+  .group-container {
+    margin-bottom: 30px;
+  }
+  
+  .group-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .team-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .team-table th, .team-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .team-table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
