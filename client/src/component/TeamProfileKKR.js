@@ -1,7 +1,7 @@
 // TeamProfilePage.jsx
 import React, { useEffect, useState } from 'react';
 import './TeamProfilePage.css';
-import SRHImage from '../assests/Sunrisers-hyderabad.jpg';
+import SRHImage from '../assests/KKR.jpg';
 
 const TeamProfilePage = () => {
   const [teamProfileData, setTeamProfileData] = useState(null);
@@ -9,7 +9,7 @@ const TeamProfilePage = () => {
   useEffect(() => {
     const fetchTeamProfileData = async () => {
       try {
-        const response = await fetch('http://localhost:3001/api/srh-match');
+        const response = await fetch('http://localhost:3001/api/kkr-match');
         const data = await response.json();
         // console.log(data)
         setTeamProfileData(data);

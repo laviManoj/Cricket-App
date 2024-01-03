@@ -9,7 +9,7 @@
     font-size: 36px;
     margin-bottom: 32px;
     color: #333;
-    background-color: skyblue;
+    background-color: rgb(216, 145, 11);
     text-align: center;
   }
   
@@ -17,12 +17,19 @@
     margin-bottom: 30px;
   }
   
-  .group-heading {
+  /* .group-heading {
     font-size: 20px;
     margin-bottom: 10px;
-    color: #555;
+    color: black;
+    text-align: center;
+  } */
+
+  .group-heading {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: white;
   }
-  
   .team-table {
     width: 100%;
     border-collapse: collapse;
@@ -31,12 +38,13 @@
   
   .team-table th, .team-table td {
     border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
+    padding: 15px;
+    text-align: center;
+    /* background-color: #f2f2f2; */
   }
   
   .team-table th {
     background-color: #f2f2f2;
-    color: #333;
+    color: red;
   }
   
