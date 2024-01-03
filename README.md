@@ -1,9 +1,9 @@
-#Cricket App
+# Cricket App
 
-#client:-
+# client:-
 step1:- npm i
 step2:- npm start -->start the webpage
 
-#server:-
+# server:-
 step:- npm i 
 step:- node server.js -->start the server
